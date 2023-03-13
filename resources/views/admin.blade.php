@@ -49,7 +49,38 @@
                     </tr>
                 </tbody>
             </table>
-            <button type="button" class="btn btn-success w-100">CREATE RM</button>
+            <button type="button" class="btn btn-success w-100" data-bs-toggle="modal" data-bs-target="#rm">CREATE
+                RM</button>
+            <div class="modal fade" id="rm" tabindex="-1" aria-labelledby="exampleModalLabel" aria-hidden="true">
+                <div class="modal-dialog">
+                    <div class="modal-content">
+                        <div class="modal-header">
+                            <h1 class="modal-title fs-5" id="exampleModalLabel">CREATE RM</h1>
+                            <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close"></button>
+                        </div>
+                        <div class="modal-body">
+                            <div class="mb-3">
+                                <label for="exampleInputName1" class="form-label">Name</label>
+                                <input type="text" class="form-control" id="exampleInputName1"
+                                    aria-describedby="nameHelp">
+                            </div>
+                            <div class="mb-3">
+                                <label for="exampleInputEmail1" class="form-label">Email address</label>
+                                <input type="email" class="form-control" id="exampleInputEmail1"
+                                    aria-describedby="emailHelp">
+                            </div>
+                            <div class="mb-3">
+                                <label for="exampleInputPassword1" class="form-label">Password</label>
+                                <input type="password" class="form-control" id="exampleInputPassword1">
+                            </div>
+                        </div>
+                        <div class="modal-footer">
+                            <button type="button" class="btn btn-secondary" data-bs-dismiss="modal">CLOSE</button>
+                            <button type="button" class="btn btn-primary">CREATE</button>
+                        </div>
+                    </div>
+                </div>
+            </div>
         </div>
         <div class="tab-pane fade" id="pills-client" role="tabpanel" aria-labelledby="pills-client-tab">
             <table class="table table-striped">
@@ -82,7 +113,38 @@
                     </tr>
                 </tbody>
             </table>
-            <button type="button" class="btn btn-success w-100">CREATE CLIENT</button>
+            <button type="button" class="btn btn-success w-100" data-bs-toggle="modal" data-bs-target="#client">CREATE
+                CLIENT</button>
+            <div class="modal fade" id="client" tabindex="-1" aria-labelledby="exampleModalLabel" aria-hidden="true">
+                <div class="modal-dialog">
+                    <div class="modal-content">
+                        <div class="modal-header">
+                            <h1 class="modal-title fs-5" id="exampleModalLabel">CREATE CLIENT</h1>
+                            <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close"></button>
+                        </div>
+                        <div class="modal-body">
+                            <div class="mb-3">
+                                <label for="exampleInputName1" class="form-label">Name</label>
+                                <input type="text" class="form-control" id="exampleInputName1"
+                                    aria-describedby="nameHelp">
+                            </div>
+                            <div class="mb-3">
+                                <label for="exampleInputEmail1" class="form-label">Email address</label>
+                                <input type="email" class="form-control" id="exampleInputEmail1"
+                                    aria-describedby="emailHelp">
+                            </div>
+                            <div class="mb-3">
+                                <label for="exampleInputPassword1" class="form-label">Password</label>
+                                <input type="password" class="form-control" id="exampleInputPassword1">
+                            </div>
+                        </div>
+                        <div class="modal-footer">
+                            <button type="button" class="btn btn-secondary" data-bs-dismiss="modal">CLOSE</button>
+                            <button type="button" class="btn btn-primary">CREATE</button>
+                        </div>
+                    </div>
+                </div>
+            </div>
         </div>
         <div class="tab-pane fade" id="pills-idea" role="tabpanel" aria-labelledby="pills-idea-tab">
             <table class="table table-striped">
@@ -130,7 +192,38 @@
                     </tr>
                 </tbody>
             </table>
-            <button type="button" class="btn btn-success w-100">CREATE IDEA</button>
+            <button type="button" class="btn btn-success w-100" data-bs-toggle="modal" data-bs-target="#idea">CREATE
+                IDEA</button>
+            <div class="modal fade" id="idea" tabindex="-1" aria-labelledby="exampleModalLabel" aria-hidden="true">
+                <div class="modal-dialog">
+                    <div class="modal-content">
+                        <div class="modal-header">
+                            <h1 class="modal-title fs-5" id="exampleModalLabel">CREATE IDEA</h1>
+                            <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close"></button>
+                        </div>
+                        <div class="modal-body">
+                            <div class="mb-3">
+                                <label for="exampleInputName1" class="form-label">Name</label>
+                                <input type="text" class="form-control" id="exampleInputName1"
+                                    aria-describedby="nameHelp">
+                            </div>
+                            <div class="mb-3">
+                                <label for="exampleInputEmail1" class="form-label">Email address</label>
+                                <input type="email" class="form-control" id="exampleInputEmail1"
+                                    aria-describedby="emailHelp">
+                            </div>
+                            <div class="mb-3">
+                                <label for="exampleInputPassword1" class="form-label">Password</label>
+                                <input type="password" class="form-control" id="exampleInputPassword1">
+                            </div>
+                        </div>
+                        <div class="modal-footer">
+                            <button type="button" class="btn btn-secondary" data-bs-dismiss="modal">CLOSE</button>
+                            <button type="button" class="btn btn-primary">CREATE</button>
+                        </div>
+                    </div>
+                </div>
+            </div>
         </div>
     </div>
 </div>
