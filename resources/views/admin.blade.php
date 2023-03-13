@@ -1,8 +1,11 @@
 @extends('layout')
 
 @section('content')
-<h2 class="bg-primary text-light py-3 text-center">ADMIN</h2>
-<div class="py-2 px-5">
+<div class="bg-primary text-light p-3 d-flex justify-content-between">
+    <h2 style="padding: 0;margin: 0;">ADMIN</h2>
+    <button type="button" class="btn btn-outline-light">LOG OUT</button>
+</div>
+<div class="p-5">
     <ul class="nav nav-pills mb-3" id="pills-tab" role="tablist">
         <li class="nav-item" role="presentation">
             <button class="nav-link active" id="pills-rm-tab" data-bs-toggle="pill" data-bs-target="#pills-rm"
