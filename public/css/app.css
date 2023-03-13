@@ -1,0 +1,21 @@
+.w3side{
+    width: 17%;
+    BACKGROUND: blueviolet;
+    color: white;
+    font-weight: 600;
+}
+.topnav{
+    height: 60px;
+    background: blueviolet;
+}
+.topnav h5{
+    display: inline;
+    color: white;
+    margin: 15px;
+    float: right;
+}
+.dash{
+    width: 89%;
+    margin: 46px;
+    /* margin-right: 25px; */
+}

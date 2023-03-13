@@ -19,3 +19,9 @@ Route::get('/', function () {
 Route::get('/admin', function () {
     return view('admin');
 });
+Route::get('/client', function () {
+    return view('client');
+});
+Route::get('/viewblog', function () {
+    return view('viewblog');
+});
